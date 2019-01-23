@@ -58,7 +58,7 @@ public class AviatorTest {
                     }
                 }
         );
-        System.out.println(AviatorEvaluator.execute("firstNonNull(1,2)"));
+        System.out.println("firstNonNull()" + AviatorEvaluator.execute("firstNonNull(nil,1,2)"));
 
         System.out.println("lambda 函数-------------");
         // lambda 定义函数
@@ -107,7 +107,7 @@ public class AviatorTest {
         Map<String, Object> map = new HashMap<>(2);
         map.put("bean",ab);
         System.out.println("-----bean------");
-        System.out.println(AviatorEvaluator.execute("bean.prize>0 ",map));
+        System.out.println(AviatorEvaluator.execute("bean.prize==0 ",map));
     }
     private static void defineFunction(){
         System.out.println("自定义函数");
