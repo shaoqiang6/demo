@@ -1,4 +1,4 @@
-package com.yansq.aviator;
+package com.shawn.aviator;
 
 import com.googlecode.aviator.AviatorEvaluator;
 import com.googlecode.aviator.runtime.function.AbstractFunction;

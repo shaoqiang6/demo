@@ -1,4 +1,4 @@
-package com.yansq.effective;
+package com.shawn.effective;
 
 import lombok.Getter;
 import lombok.Setter;

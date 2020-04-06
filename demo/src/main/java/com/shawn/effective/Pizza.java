@@ -1,4 +1,4 @@
-package com.yansq.effective;
+package com.shawn.effective;
 
 import java.util.EnumSet;
 import java.util.Set;

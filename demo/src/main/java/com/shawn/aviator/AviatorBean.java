@@ -1,4 +1,4 @@
-package com.yansq.aviator;
+package com.shawn.aviator;
 
 import lombok.*;
 

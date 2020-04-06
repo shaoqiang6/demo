@@ -1,4 +1,4 @@
-package com.yansq.effective;
+package com.shawn.effective;
 
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;
