@@ -18,7 +18,7 @@ public class TimeClient {
         for (int j = 0;j<100;j++) {
             long start = System.currentTimeMillis();
             for (int i = 0; i < 100; i++) {
-                req(port);
+                request(port);
             }
             long cost = System.currentTimeMillis() - start;
             System.out.println(String.format("耗时: %d", cost));
@@ -28,7 +28,7 @@ public class TimeClient {
 
     }
 
-    private static void req(int port) {
+    private static void request(int port) {
         Socket socket;
         BufferedReader in = null;
         PrintWriter out = null;
