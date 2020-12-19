@@ -1,4 +1,4 @@
-package yansq.jdk8.lambda;
+package com.shawn.jdk8.lambda;
 
 /**
  * @author yanshaoqiang

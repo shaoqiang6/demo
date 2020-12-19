@@ -1,4 +1,4 @@
-package yansq.jdk8.function;
+package com.shawn.jdk8.function;
 
 /**
  * @author yanshaoqiang

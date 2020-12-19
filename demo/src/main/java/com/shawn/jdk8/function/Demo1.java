@@ -1,4 +1,4 @@
-package yansq.jdk8.lambda;
+package com.shawn.jdk8.function;
 
 import org.junit.Test;
 
@@ -22,7 +22,7 @@ public class Demo1 {
 
 //        Check check = x->x.test(5);
 //        System.out.println(check.check(t->t>1));
-        Check check = x->x.test(2);
+//        Check check = x->x.test(2);
     }
     @Test
     public void fun1(){

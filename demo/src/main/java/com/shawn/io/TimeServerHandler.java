@@ -27,10 +27,15 @@ public class TimeServerHandler implements Runnable {
             out = new PrintWriter(this.socket.getOutputStream(), true);
             String currentTime = null;
             String body = null;
+            int nullCount = 0;
             while (true) {
                 body = in.readLine();
+
                 if (body == null){
-                    break;
+                    if (nullCount++ >2) {
+                        break;
+                    }
+                    continue;
                 }
                 System.out.println("The time server receive order : " + body);
 
