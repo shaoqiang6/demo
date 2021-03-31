@@ -15,7 +15,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <aviator.version>4.1.1</aviator.version>
-        <guava.version>28.1-jre</guava.version>
+        <guava.version>29.0-jre</guava.version>
         <commons.langs.version>3.8</commons.langs.version>
         <httpclient.version>4.5.13</httpclient.version>
         <netty.all.version>4.1.53.Final</netty.all.version>
