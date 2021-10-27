@@ -27,6 +27,6 @@ public class TestDemo {
         Son son = new Son();
         son.setHobby(1);
         son.setName("jim");
-        System.out.println(JSON.toJSONString(son));
+//        System.out.println(JSON.toJSONString(son));
     }
 }
