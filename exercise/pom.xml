@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>demo</artifactId>
+    <artifactId>exercise</artifactId>
     <properties>
         <spring.version>4.3.16.RELEASE</spring.version>
         <dubbo.version>2.7.7</dubbo.version>
